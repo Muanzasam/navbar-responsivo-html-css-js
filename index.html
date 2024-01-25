@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <!--CSS-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="logo">
+        <a href="#"><img src="logo.png" alt="" /></a>
+      </div>
+      <form class="search">
+        <div class="inputWithIcon inputIconBg">
+          <input type="search" placeholder="Procurar" id="search" />
+          <i class="bx bx-search"></i>
+        </div>
+      </form>
+      <div class="icons">
+        <a href="#" class="bx bxs-heart"></a>
+        <a href="#" class="bx bxs-cart-alt"></a>
+        <a href="search.html" class="bx bx-user"></a>
+        <a href="#" class="bx bx-list-ul"></a>
+      </div>
+    </div>
+    <div class="links">
+      <nav class="menu">
+        <ul>
+          <li>
+            <a href="#" class="link-active"><i class="bx bxs-home"></i> Home</a>
+          </li>
+          <li>
+            <a href="#"><i class="bx bxs-purchase-tag"></i> Produtos</a>
+            <ul id="menu-dropdown-prod">
+              <li><a href="#">Em Promoção</a></li>
+              <li><a href="#">Mais comprados</a></li>
+              <li><a href="#">Outros</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#"><i class="bx bx-desktop"></i> Eletrónicos</a>
+            <ul id="menu-dropdown-elet">
+              <li><a href="#">Computadores </a></li>
+              <li><a href="#">Telefones </a></li>
+              <li><a href="#">Eletrodómesticos </a></li>
+              <li><a href="#">Outros</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#"><i class="bx bxs-t-shirt"></i> Vestuários</a>
+            <ul id="menu-dropdown-vest">
+              <li><a href="#">Homens </a></li>
+              <li><a href="#">Mulheres </a></li>
+              <li><a href="#">Crianças</a></li>
+              <li><a href="#">Outros</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#"><i class="bx bxs-bed"></i> Mobiliários</a>
+          </li>
+        </ul>
+
+        <div class="social-icons">
+          <a href="#" class="btn-facebook">
+            <i class="bx bxl-facebook-circle"></i
+          ></a>
+          <a href="#" class="btn-instagram">
+            <i class="bx bxl-instagram"></i>
+          </a>
+          <a href="#" class="btn-whatsapp"> <i class="bx bxl-whatsapp"></i> </a>
+        </div>
+      </nav>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
